@@ -203,3 +203,46 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*about page css */
+.imgheader{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header2{
+    padding: 20px;
+
+}
+.columns{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.imgboxes{
+    width: 40%;
+    height: 400px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid gray;
+
+}
+.learn{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.learn:hover{
+    color: blue;
+}
+.bottomtext{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.images:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
